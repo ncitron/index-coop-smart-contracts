@@ -19,14 +19,14 @@
 pragma solidity 0.6.10;
 pragma experimental ABIEncoderV2;
 
-import { Address } from "@openzeppelin/contracts/utils/Address.sol";
-import { IERC20 } from "@openzeppelin/contracts/token/ERC20/IERC20.sol";
-import { SafeERC20 } from "@openzeppelin/contracts/token/ERC20/SafeERC20.sol";
+import "@openzeppelin/contracts/utils/Address.sol";
+import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
+import "@openzeppelin/contracts/token/ERC20/SafeERC20.sol";
 
-import { AddressArrayUtils } from "../lib/AddressArrayUtils.sol";
-import { IExtension } from "../interfaces/IExtension.sol";
-import { ISetToken } from "../interfaces/ISetToken.sol";
-import { MutualUpgrade } from "../lib/MutualUpgrade.sol";
+import "../lib/AddressArrayUtils.sol";
+import "../interfaces/IExtension.sol";
+import "../interfaces/ISetToken.sol";
+import "../lib/MutualUpgrade.sol";
 
 
 /**
