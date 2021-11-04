@@ -19,7 +19,7 @@
 pragma solidity 0.6.10;
 pragma experimental "ABIEncoderV2";
 
-import { IBaseManager } from "./IBaseManager.sol";
+import "./IBaseManager.sol";
 
 interface IExtension {
     function manager() external view returns (IBaseManager);

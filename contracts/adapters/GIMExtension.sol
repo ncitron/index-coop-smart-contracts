@@ -19,14 +19,14 @@
 pragma solidity 0.6.10;
 pragma experimental "ABIEncoderV2";
 
-import { IERC20 } from "@openzeppelin/contracts/token/ERC20/IERC20.sol";
-import { SafeMath } from "@openzeppelin/contracts/math/SafeMath.sol";
+import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
+import "@openzeppelin/contracts/math/SafeMath.sol";
 
-import { AddressArrayUtils } from "../lib/AddressArrayUtils.sol";
-import { BaseExtension } from "../lib/BaseExtension.sol";
-import { IBaseManager } from "../interfaces/IBaseManager.sol";
-import { IGeneralIndexModule } from "../interfaces/IGeneralIndexModule.sol";
-import { ISetToken } from "../interfaces/ISetToken.sol";
+import "../lib/AddressArrayUtils.sol";
+import "../lib/BaseExtension.sol";
+import "../interfaces/IBaseManager.sol";
+import "../interfaces/IGeneralIndexModule.sol";
+import "../interfaces/ISetToken.sol";
 
 /**
  * @title GIMExtension
